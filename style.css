@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid purple;
+}
+
+table th {
+    background: purple;
+    color: orange;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+table td input {
+    padding: 10px;
+    width: 100%;
+}
+
+table td {
+    position: relative;
+}
+
+table td button {
+    position: absolute;
+    color: purple;
+    z-index: 15;
+    background: orange;
+    border: none;
+    right: 0;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+table td button:hover, table td button:focus {
+    color: black;
+    outline: none;
+}
+
+table td input:focus {
+    outline: none;
+}
+
+.container h1 {
+    color: purple;
+    text-align: center;
+}
+
+.actionRow {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.actionRow button {
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.actionRow button:hover {
+    background: purple;
+    color: orange;
+    border: none;
+}
+
+.actionRow button:focus {
+    outline: none;
+}
+
+.displayResult {
+    margin-bottom: 70px;
+}
+
+.displayResult p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer {
+    background: purple;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}

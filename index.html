@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CGPA CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CGPA CALCULATOR</h1>
+        <table id="table">
+            <tr>
+                <th>COURSE CODE</th>
+                <th>UNIT</th>
+                <th>SCORE</th>
+            </tr>
+            <tr>
+                <td><input name="code" type="text" maxlength="12"></td>
+                <td><input id="unit1" type="number" min="1" max="10" name="unit"></td>
+                <td><input id="score1" type="number" min="0" max="100" name="score"></td>
+            </tr>
+        </table>
+        <div class="actionRow">
+            <button id="addRow">Add another course</button>
+            <button id="calculateCGPA">Calculate CGPA</button>
+        </div>
+        <div class="displayResult">
+            <p id="creditsTaken"></p>
+            <p id="creditsPassed"></p>
+            <p id="cgpa"></p>
+            <p id="grade"></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Joshua Oyeleke © 2020 || +2348163087542</p>
+    </div>
+
+    <script src="cgpa.js"></script>
+</body>
+
+</html>
