@@ -104,3 +104,13 @@ table td input:focus {
     width: 100%;
     font-size: 14px;
 }
+
+.footer a {
+    color: orange;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
