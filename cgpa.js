@@ -77,6 +77,7 @@ function addCourse() {                                                          
                     input.type = "text";
                     input.maxLength = 12;
                     input.name = "code";
+                    input.placeholder = "e.g. Mat442, CSC247";
                     removeBtn.id = "remove";
                     removeBtn.className = "removeBtn";
                     removeBtn.innerHTML = "Remove";
@@ -88,6 +89,7 @@ function addCourse() {                                                          
                     input.max = 10;
                     input.id = "input" + count;
                     input.name = "unit";
+                    input.placeholder = "1 - 10";
                     break;
                 case 2:
                     input.type = "number";
@@ -95,6 +97,7 @@ function addCourse() {                                                          
                     input.max = 100;
                     input.id = "score" + count;
                     input.name = "score";
+                    input.placeholder = "1 - 100";
                     break;
             }
 
