@@ -1,4 +1,4 @@
-# To-Do-List
+# CGPA-CALCULATOR
 
 This helps the user to calculate their CGPA.
 
